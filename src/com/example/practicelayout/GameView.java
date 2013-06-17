@@ -36,8 +36,6 @@ public class GameView extends SurfaceView implements Runnable{
 		cB = BitmapFactory.decodeResource(getResources(), R.drawable.columnbottom);
 		star = BitmapFactory.decodeResource(getResources(), R.drawable.star);
 		guy = BitmapFactory.decodeResource(getResources(), R.drawable.guy);
-		SurfaceHolder holder = ((SurfaceView) activity.findViewById(R.id.surfaceView1)).getHolder();
-        Canvas canvas = holder.lockCanvas();
 }
 	
 
@@ -261,7 +259,6 @@ public class GameView extends SurfaceView implements Runnable{
 		private void refreshEntities() {
 			// TODO Auto-generated method stub
 			if(Game.mLastX > 2){
-				canvas.
 			}
 		}
     }
